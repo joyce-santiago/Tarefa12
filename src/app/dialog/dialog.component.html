@@ -1,0 +1,36 @@
+<h1 mat-dialog-title>Add Estudante Form</h1>
+<div mat-dialog-content>
+    <form [formGroup]="studentForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Nome</mat-label>
+            <input formControlName="nome" matInput placeholder="Nome">
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline">
+            <mat-label>Nacionalidade</mat-label>
+            <mat-select formControlName="nacionalidade" placeholder="Nacionalidade">
+                <mat-option value="Brasileiro">Brasileiro</mat-option>
+                <mat-option value="Estrangeiro">Estrangeiro</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Ensino</mat-label>
+            <mat-select formControlName="ensino" placeholder="Ensino">
+                <mat-option value="Fundamental">Fundamental</mat-option>
+                <mat-option value="Medio">Médio</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <label for=""><h1>Período</h1></label>
+        <mat-radio-group formControlName="periodo" class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let periodo of periodoList" [value]="periodo">
+                {{periodo}}
+            </mat-radio-button>
+        </mat-radio-group>
+    </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="primary" (click)="addStudent()">{{actionBtn}}</button>
+    <button style="margin-left: 8px;" mat-raised-button color="warn" mat-dialog-close>Cancelar</button>
+</div>

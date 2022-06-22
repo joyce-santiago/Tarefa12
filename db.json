@@ -1,0 +1,93 @@
+{
+  "studentList": [
+    {
+      "nome": "Kibum",
+      "nacionalidade": "Brasileiro",
+      "ensino": "Fundamental",
+      "periodo": "Integral",
+      "id": 1
+      },
+
+      {
+      "nome": "Taemin",
+      "nacionalidade": "Estrangeiro",
+      "ensino": "Medio",
+      "periodo": "Integral",
+      "id": 2
+      },
+
+      {
+      "nome": "Jonghyun",
+      "nacionalidade": "Brasileiro",
+      "ensino": "Medio",
+      "periodo": "Manhã",
+      "id": 3
+      },
+
+      {
+      "nome": "Bill",
+      "nacionalidade": "Estrangeiro",
+      "ensino": "Medio",
+      "periodo": "Integral",
+      "id": 4
+      },
+
+      {
+      "nome": "Tom",
+      "nacionalidade": "Estrangeiro",
+      "ensino": "Medio",
+      "periodo": "Integral",
+      "id": 5
+      },
+
+      {
+      "nome": "Gustavo",
+      "nacionalidade": "Brasileiro",
+      "ensino": "Fundamental",
+      "periodo": "Integral",
+      "id": 6
+      },
+
+      {
+      "nome": "Ronnie",
+      "nacionalidade": "Brasileiro",
+      "ensino": "Fundamental",
+      "periodo": "Tarde",
+      "id": 7
+      },
+
+      {
+      "nome": "Axl Rose",
+      "nacionalidade": "Estrangeiro",
+      "ensino": "Fundamental",
+      "periodo": "Integral",
+      "id": 8
+      },
+
+      {
+      "nome": "Jack Avery",
+      "nacionalidade": "Brasileiro",
+      "ensino": "Medio",
+      "periodo": "Integral",
+      "id": 9
+      },
+      
+      {
+      "nome": "Corbyn",
+      "nacionalidade": "Brasileiro",
+      "ensino": "Medio",
+      "periodo": "Integral",
+      "id": 10
+      }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
